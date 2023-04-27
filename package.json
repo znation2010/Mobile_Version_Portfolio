@@ -1,0 +1,23 @@
+{
+  "name": "mobile_version_portfolio",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znation2010/Mobile_Version_Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/znation2010/Mobile_Version_Portfolio/issues"
+  },
+  "homepage": "https://github.com/znation2010/Mobile_Version_Portfolio#readme",
+  "devDependencies": {
+    "hint": "^7.1.8"
+  }
+}
