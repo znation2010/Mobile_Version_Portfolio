@@ -29,11 +29,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse
+# 📖 Portfolio: setup and mobile first
 
 <a name="about-project"></a>
 
-> Hello Microverse is a project that is designed for us to get familiar with setting up linters.
+> Portfolio: setup and mobile first is a project that is designed for us to get familiar with setting a Responsive Website for different devices also using linters.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,8 +52,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Validates whether there is Error in the HTML file
-- Checks for errors in the Stylesheet using the linters
+- The website is responsive
+- Utilized Flexbox
 - Github workflow linter(HTML+CSS)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -62,7 +62,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Anyone can use this project to learn how to setup linter for HTML-CSS files.
+> Anyone can use this project to learn how to setup a responsice website and linter for HTML-CSS files.
 
 ### Prerequisites
 
@@ -73,6 +73,7 @@ In order to run this project you need:
     <li><a href="https://code.visualstudio.com/">VS Code</a></li>
     <li><a href="https://nodejs.org/en/download/package-manager">Node</a></li>
     <li>Chrome or any browser</li>
+    <li>Knowledge about Webdevelopment & Flexbox</li>
 </ul>
 
 ### Setup
@@ -81,7 +82,7 @@ Clone this repository to your desired folder:
 
 ```
 cd Hello_Microverse_Project
-git clone https://github.com/znation2010/Hello_Microverse_Project.git
+git clone https://github.com/znation2010/Mobile_Version_Portfolio.git
 ```
 
 ### Install
@@ -89,7 +90,7 @@ git clone https://github.com/znation2010/Hello_Microverse_Project.git
 Install this project with:
 
 ```sh
-  cd Hello_Microverse_Project
+  cd Mobile_Version_Project
   npm i
 ```
 
@@ -98,7 +99,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```
-  use live server extension on VSCode
+  use live server extension on VSCode and a Browser
 ```
 
 ### Run tests
@@ -107,6 +108,7 @@ To run tests, run the following command:
 
 ```
 npx hint .
+npx stylelint "**/*.{css,scss}"
 ```
 
 ### Deployment
@@ -135,8 +137,8 @@ Netilfy or Github pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Linter for JavaScript
-- Linter for SaaS
+- Responsive for Desktop
+- Contact forms
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
