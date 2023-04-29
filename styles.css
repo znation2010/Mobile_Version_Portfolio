@@ -225,7 +225,7 @@
     padding-top: 6%;
     padding-left: 5%;
     padding-right: 4%;
-    margin-top: 14%;
+    margin-top: 16%;
   }
 
   .list-title {
@@ -256,7 +256,7 @@
   .lists {
     display: flex;
     align-items: center;
-    gap: 50vw;
+    gap: 60vw;
   }
 
   #aboutme-list {
