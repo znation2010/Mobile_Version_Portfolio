@@ -219,7 +219,7 @@
     box-shadow: 2px 2px 5px #2230d2;
   }
 
-  .my-resume{
+  .my-resume {
     border: 1px solid #6070ff;
     border-radius: 8px;
     background-color: #f7f7f9;
@@ -230,7 +230,7 @@
     font-size: 17px;
     line-height: 24px;
     padding: 12px;
-    margin-left:24px ;
+    margin-left: 24px;
     gap: 10px;
   }
 
@@ -290,7 +290,7 @@
     justify-content: space-around;
   }
 
-  .lists h4{
+  .lists h4 {
     margin-right: 0;
     align-items: center;
     justify-content: flex-start;
