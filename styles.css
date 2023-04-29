@@ -92,7 +92,7 @@
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(1fr);
-    margin-top: 50px;
+    margin-top: 160px;
     gap: 50px;
     padding-left: 16px;
     padding-right: 16px;
@@ -238,7 +238,7 @@ ul {
 .lists {
   display: flex;
   align-items: center;
-  gap: 60vw;
+  gap: 50vw;
 }
 #aboutme-list {
   margin: 0;
