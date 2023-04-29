@@ -29,11 +29,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: setup and mobile first
+# 📖 Portfolio: finish mobile version
 
 <a name="about-project"></a>
 
-> Portfolio: setup and mobile first is a project that is designed for us to get familiar with setting a Responsive Website for different devices also using linters.
+> Portfolio: finish mobile version is a project that is designed for us to get familiar with setting a Responsive Website for different devices also using linters.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,8 +52,9 @@
 
 ### Key Features <a name="key-features"></a>
 
+- Different layouts
 - The website is responsive
-- Utilized Flexbox
+- Utilized Flexbox and CSS Grid
 - Github workflow linter(HTML+CSS)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -137,8 +138,8 @@ Netilfy or Github pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Responsive for Desktop
-- Contact forms
+- Client Testimonials
+- Interactive Contact forms
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
