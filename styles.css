@@ -151,7 +151,6 @@
   }
 
   .webdev-languages {
-    display: flex;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -164,9 +163,11 @@
   }
 
   .webdev-languages li {
+    float: left;
     background: #ebebff;
     padding: 4px 12px;
     border-radius: 8px;
+    margin-right: 3%;
   }
 
   .programming-lang {
@@ -210,6 +211,7 @@
     font-size: 17px;
     line-height: 24px;
     padding: 12px;
+    margin: 40px -236px;
     gap: 10px;
   }
 
