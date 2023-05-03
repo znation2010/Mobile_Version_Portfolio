@@ -33,7 +33,7 @@
 
 <a name="about-project"></a>
 
-> Portfolio: finish mobile version is a project that is designed for us to get familiar with setting a Responsive Website for different devices also using linters.
+> Portfolio: Adding Contact-form mobile version is a project that is designed for us to get familiar with setting a using forms and inputs to validate user inputs also utilizing them for different devices also using Responsive design and linters.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,10 +52,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Different layouts
-- The website is responsive
-- Utilized Flexbox and CSS Grid
+- Form
+- Interactive Contact forms
+- Form Validation
+- Utilized Flexbox
 - Github workflow linter(HTML+CSS)
+- Pair-Programming
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,12 +136,19 @@ Netilfy or Github pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+👤 **Author2**
+
+- GitHub: [Rifat8080 ](https://github.com/Rifat8080)
+
+👤 **Author3**
+
+- GitHub: [@cosywasswa](https://github.com/cosywasswa)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- Desktop Version
 - Client Testimonials
-- Interactive Contact forms
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
