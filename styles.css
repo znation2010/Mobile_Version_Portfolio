@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-@media screen and (min-width: 374px) and (max-width: 768px) {
   body {
     background-color: #f7f7f9;
     padding: 0;
@@ -425,4 +424,3 @@
     justify-content: center;
     margin: 3% 3%;
   }
-}
