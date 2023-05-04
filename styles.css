@@ -424,3 +424,7 @@ textarea {
   justify-content: center;
   margin: 3% 3%;
 }
+
+.ani-logo:hover {
+  transform: scale(1.2);
+}
