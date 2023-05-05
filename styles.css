@@ -442,3 +442,7 @@ textarea {
     transform: translateX(300px);
   }
 }
+
+nav :hover {
+  transform: translate(10px,20px);
+}
