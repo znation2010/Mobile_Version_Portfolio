@@ -406,6 +406,7 @@ textarea {
   margin-left: 9%;
   border: none;
   margin-bottom: 32px;
+  
 }
 
 .get-in-touch-btn :hover {
@@ -414,6 +415,9 @@ textarea {
   border: 2px solid #fff;
 }
 
+nav :hover {
+  transform: translate(10px,20px);
+}
 .get-in-touch-btn:active {
   color: #fff;
   background-color: #6070ff;
@@ -427,4 +431,17 @@ textarea {
 
 .ani-logo:hover {
   transform: scale(1.2);
+}
+
+.greeting {
+  animation: moveToRight 2s ease-in-out;
+  animation-delay: 1000ms;
+}
+@keyframes moveToRight {
+  0% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(300px);
+  }
 }
