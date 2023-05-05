@@ -55,6 +55,8 @@ nav {
   line-height: 52px;
   margin-top: 140px;
   padding-left: 32px;
+  animation: moveToRight 2s ease-in-out;
+  animation-delay: 1000ms;
 }
 
 .job-description {
@@ -406,7 +408,10 @@ textarea {
   margin-left: 9%;
   border: none;
   margin-bottom: 32px;
-  
+}
+
+nav :hover {
+  transform: translate(10px, 20px);
 }
 
 .get-in-touch-btn :hover {
@@ -430,19 +435,12 @@ textarea {
   transform: scale(1.2);
 }
 
-.greeting {
-  animation: moveToRight 2s ease-in-out;
-  animation-delay: 1000ms;
-}
 @keyframes moveToRight {
   0% {
     transform: translateX(50px);
   }
+
   100% {
     transform: translateX(300px);
   }
-}
-
-nav :hover {
-  transform: translate(10px,20px);
 }
