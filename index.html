@@ -10,30 +10,41 @@
   <body>
     <main>
       <header>
-        <div class="ani-logo">
-          <span class="my-logo"><a href="#">My Logo</a></span>
-        </div>
         <nav>
-          <a href=""><img src="assets/images/Union.png" alt="Union-icon" /></a>
+          <span class="my-logo"><a href="#">My Logo</a></span>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
         </nav>
+        <!-- <nav>
+          <a href=""><img src="assets/images/Union.png" alt="Union-icon" /></a>
+        </nav> -->
       </header>
 
       <section class="hero">
-        <h1 class="greeting">
-          I'm Zerihun. <br />
-          Glad to see <br />
-          you!
-        </h1>
-        <div class="job-description">
-          <p>
+        <div>
+          <h1 class="greeting">
+            I'm Zerihun. <br />
+            Glad to see you!
+          </h1>
+
+          <p class="job-description">
             I'm a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don't hesitate to
             contact me.
           </p>
-        </div>
-        <h2 class="connect-link">LET'S CONNECT</h2>
-        <div class="social-media-icons">
+
+          <h2 class="connect-link">LET'S CONNECT</h2>
+
           <ul class="social-media-links">
             <li>
               <a href="#"
@@ -68,7 +79,8 @@
       <section class="works">
         <div class="cards">
           <img
-            src="assets/snapshoots/Snapshoot Portfolio.svg"
+            class="snapshoots"
+            src="assets/snapshoots/desk-1.svg"
             alt="Snapshoot svg"
           />
           <div class="cards-description">
@@ -96,65 +108,7 @@
         </div>
         <div class="cards">
           <img
-            src="assets/snapshoots/Snapshoot Portfolio-2.svg"
-            alt="Snapshoot svg"
-          />
-          <div class="cards-description">
-            <h2 class="card-titles">
-              Multi-Post <br />
-              Stories
-            </h2>
-            <div>
-              <span class="canopy">CANOPY</span>
-              <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
-              <span class="subheading-list-title">Back End Dev</span>
-              <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
-              <span class="subheading-list-title">2015</span>
-            </div>
-            <section class="card-content">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-            </section>
-            <ul class="webdev-languages">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-            <button class="see-project" type="button">See project</button>
-          </div>
-        </div>
-        <div class="cards">
-          <img
-            src="assets/snapshoots/Snapshoot Portfolio-3.svg"
-            alt="Snapshoot svg"
-          />
-          <div class="cards-description">
-            <h2 class="card-titles">Tonic</h2>
-            <div class="subheading-lists">
-              <span class="canopy">CANOPY</span>
-              <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
-              <span class="subheading-list-title">Back End Dev</span>
-              <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
-              <span class="subheading-list-title">2015</span>
-            </div>
-            <section class="card-content">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-            </section>
-            <ul class="webdev-languages">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-            <button class="see-project" type="button">See project</button>
-          </div>
-        </div>
-        <div class="cards">
-          <img
+            class="snapshoots right-side"
             src="assets/snapshoots/Snapshoot Portfolio-4.svg"
             alt="Snapshoot svg"
           />
@@ -163,21 +117,85 @@
               Multi-Post <br />
               Stories
             </h2>
-            <div class="subheading-lists">
-              <span class="canopy">CANOPY</span>
+            <div>
+              <span class="canopy">FACEBOOK</span>
               <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
-              <span class="subheading-list-title">Back End Dev</span>
+              <span class="subheading-list-title">Full Stack Dev</span>
               <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
               <span class="subheading-list-title">2015</span>
             </div>
             <section class="card-content">
               <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
+                Experimental content creation feature that allows users to
+                <br />
+                add to an existing story over the course of a day without
+                <br />spamming their friends.
               </p>
             </section>
             <ul class="webdev-languages">
               <li>HTML</li>
+              <li>Ruby on rails</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <button class="see-project" type="button">See project</button>
+          </div>
+        </div>
+        <div class="cards">
+          <img
+            class="snapshoots"
+            src="assets/snapshoots/Snapshoot Portfolio.svg"
+            alt="Snapshoot svg"
+          />
+          <div class="cards-description">
+            <h2 class="card-titles">Facebook 360</h2>
+            <div class="subheading-lists">
+              <span class="canopy">Facebook</span>
+              <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+              <span class="subheading-list-title">Full Stack Dev</span>
+              <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+              <span class="subheading-list-title">2015</span>
+            </div>
+            <section class="card-content">
+              <p>
+                Exploring the future of media in Facebook's first Virtual
+                Reality <br />app; a place to discover and enjoy 360 photos and
+                videos on <br />Gear VR.
+              </p>
+            </section>
+            <ul class="webdev-languages">
+              <li>HTML</li>
+              <li>Ruby on rails</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <button class="see-project" type="button">See project</button>
+          </div>
+        </div>
+        <div class="cards left-side">
+          <img
+            class="snapshoots right-side"
+            src="assets/snapshoots/Snapshoot Portfolio-2.svg"
+            alt="Snapshoot svg"
+          />
+          <div class="cards-description">
+            <h2 class="card-titles">Uber Navigation</h2>
+            <div class="subheading-lists">
+              <span class="canopy">Uber</span>
+              <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+              <span class="subheading-list-title">Lead Developer</span>
+              <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+              <span class="subheading-list-title">2018</span>
+            </div>
+            <section class="card-content">
+              <p>
+                A smart assistant to make driving more safe, efficient, and fun
+                by unlocking your most expensive computer: your car.
+              </p>
+            </section>
+            <ul class="webdev-languages">
+              <li>HTML</li>
+              <li>Ruby on rails</li>
               <li>CSS</li>
               <li>JavaScript</li>
             </ul>
@@ -185,54 +203,59 @@
           </div>
         </div>
       </section>
-      <section class="about-myself">
-        <div>
-          <h2 class="greeting">About Myself</h2>
-          <div class="job-description">
-            <p>
-              I'm a software developer! I can help you build a product , feature
-              or website Look through some of my work and experience! If you
-              like what you see and have a project you need coded, don't
-              hesitate to contact me.
-            </p>
+      < class="about-myself">
+        <div class="about-content">
+          <div class="leftblock">
+            <h2 class="greeting">About Myself</h2>
+            <div class="job-description">
+              <p>
+                I'm a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don't hesitate to contact me.
+              </p>
+            </div>
+            <h2 class="connect-link">LET'S CONNECT</h2>
+            <div class="social-media-icons">
+              <ul class="social-media-links">
+                <li>
+                  <a href="#"
+                    ><img
+                      src="assets/images/twitter-logo.png"
+                      alt="twitter-logo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="assets/images/Linkedin icon.png"
+                      alt="linkedin-logo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/images/medium-icon.png" alt="medium-icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/images/github-logo.png" alt="github-logo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="assets/images/angel-list-logo.png"
+                      alt="angel-list-logo"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <button class="my-resume" type="button">Get my resume</button>
           </div>
-          <h2 class="connect-link">LET'S CONNECT</h2>
-          <div class="social-media-icons">
-            <ul class="social-media-links">
-              <li>
-                <a href="#"
-                  ><img src="assets/images/twitter-logo.png" alt="twitter-logo"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img
-                    src="assets/images/Linkedin icon.png"
-                    alt="linkedin-logo"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img src="assets/images/medium-icon.png" alt="medium-icon"
-                /></a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="assets/images/github-logo.png" alt="github-logo"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img
-                    src="assets/images/angel-list-logo.png"
-                    alt="angel-list-logo"
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <button class="my-resume" type="button">Get my resume</button>
         </div>
-        <ul id="aboutme-list">
+        <div>
+          <ul id="aboutme-list">
           <li class="list-title">
             <ul class="lists">
               <li><h4>Languages</h4></li>
@@ -288,7 +311,8 @@
               alt="list-separator"
             />
           </li>
-        </ul>
+          </ul>
+        </div>
       </section>
       <!---  Footer and Contact-me Form  -->
       <section class="footer-container" id="footer-id">

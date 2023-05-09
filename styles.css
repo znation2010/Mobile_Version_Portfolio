@@ -51,12 +51,11 @@ nav {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 48px;
+  line-height: 60px;
   margin-top: 140px;
   padding-left: 32px;
-  animation: moveToRight 2s ease-in-out;
-  animation-delay: 1000ms;
+  letter-spacing: 0.37px;
 }
 
 .job-description {
@@ -64,8 +63,10 @@ nav {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 32px;
   padding-right: 34px;
 }
@@ -78,6 +79,7 @@ nav {
   font-size: 16px;
   line-height: 24px;
   padding-left: 34px;
+  padding-bottom: 10px;
 }
 
 .social-media-links {
@@ -86,6 +88,7 @@ nav {
   justify-content: flex-start;
   gap: 16px;
   list-style-type: none;
+  padding-left: 34px;
 }
 
 .works {
@@ -115,6 +118,7 @@ nav {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  margin-top: 10;
 }
 
 .subheading-list {
@@ -250,6 +254,8 @@ nav {
 }
 
 .about-myself {
+  display: grid;
+  padding: 150px 30px 150px 30px;
   background-color: #fff;
   border-radius: 0 100px 0 0 / 100px;
   padding-top: 6%;
@@ -257,6 +263,12 @@ nav {
   padding-right: 4%;
   margin-top: 16%;
   height: 1263px;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: auto;
 }
 
 .list-title {
@@ -318,8 +330,8 @@ ul {
   background-color: #6070ff;
   border-radius: 100px 0 0 0;
   background-repeat: no-repeat;
-  background-image: url(assets/images/contact\ form\ shapes-mobile.svg);
-  background-position: right top 31px;
+  background-image: url(assets/images/desktop-images/contact\ form\ background\ shapes@2x.svg);
+  background-position: center;
   height: 779px;
   padding-bottom: 40px;
 }
@@ -431,16 +443,79 @@ nav :hover {
   margin: 3% 3%;
 }
 
-.ani-logo:hover {
-  transform: scale(1.2);
+.cards-description {
+  margin: 30px 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
 }
 
-@keyframes moveToRight {
-  0% {
-    transform: translateX(50px);
+.cards >img {
+  margin: 0 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
   }
 
-  100% {
-    transform: translateX(300px);
+  .nav-item {
+    display: block;
+  }
+
+  .nav-item a {
+    color: #344563;
+    font-weight: 500;
+  }
+
+  .nav-menu {
+    padding-right: 70px;
+  }
+
+  .hero {
+    background-image: url(assets/images/desktop-images/Header\ bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    padding-top: 118px;
+  }
+  
+  .hero > div {
+    margin: auto;
+    width: 70%;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 142px;
+  }
+
+  .snapshoots {
+    width: 100%;
+  }
+
+  .cards-description {
+    width: 100%;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .about-myself {
+    width: 80%;
+    margin: 70px auto 70px auto;
+    padding: 0;
+    justify-content: center;
+    background: #fff;
   }
 }
