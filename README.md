@@ -138,11 +138,11 @@ Netilfy or Github pages.
 
 👤 **Author2**
 
-- GitHub: [Rifat8080 ](https://github.com/Rifat8080)
+- GitHub: [brighton0102](https://github.com/brighton0102)
 
 👤 **Author3**
 
-- GitHub: [@cosywasswa](https://github.com/cosywasswa)
+- GitHub: [richie1988](https://github.com/richie1988)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
