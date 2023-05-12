@@ -88,6 +88,9 @@ nav {
   list-style-type: none;
 }
 
+.social-media-links:hover {
+    transform: translateX(50px);
+  }
 .works {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
@@ -436,10 +439,10 @@ nav :hover {
 }
 
 @keyframes moveToRight {
-  0% {
-    transform: translateX(50px);
-  }
-  100% {
-    transform: translateX(300px);
-  }
+    0% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(300px);
+    }
 }
