@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   background-color: #e5e5e5;
 }
 
@@ -52,7 +52,7 @@ header {
 }
 
 .job-description {
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   color: #344563;
   font-weight: 400;
   font-style: normal;
@@ -62,7 +62,7 @@ header {
 }
 
 .connect-link {
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   color: #7f8cff;
   font-weight: 500;
   font-style: normal;
@@ -115,7 +115,7 @@ ul {
 }
 
 .card-titles {
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   color: #172b4d;
   font-style: normal;
   font-weight: 700;
@@ -147,7 +147,6 @@ ul {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
-  
 }
 
 .webdev-languages {
@@ -319,7 +318,7 @@ ul {
 
 .footer-container h2 {
   color: #fff;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;  
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -387,7 +386,6 @@ form textarea {
   letter-spacing: 0.03em;
   transition: background-color 0.15s, color 0.15s;
 }
-
 
 .get-in-touch-btn:hover {
   color: #fff;
@@ -490,5 +488,4 @@ form textarea {
     margin-right: 15px;
     align-items: center;
   }
-
 }
