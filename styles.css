@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -83,6 +83,7 @@ li a {
 ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .pro-card {
@@ -111,7 +112,8 @@ ul {
 
 .snapshoots {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card-titles {
@@ -121,6 +123,13 @@ ul {
   font-weight: 700;
   line-height: 2.75rem;
   font-size: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 90%;
+  margin: 0;
+}
+
+.card-content p {
   padding-top: 0.75rem;
 }
 
@@ -133,13 +142,15 @@ ul {
   color: #7a869a;
   font-weight: 600;
   margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 
-.canopy {
+#canopy {
   color: #344563;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
+  margin-left: 0;
 }
 
 .subheading-list-title {
@@ -147,6 +158,8 @@ ul {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 
 .webdev-languages {
@@ -443,6 +456,10 @@ form textarea {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .cards:hover {
+    border: 2px solid #A7AEFF;
   }
 
   .cards .desc-right,
