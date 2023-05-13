@@ -29,11 +29,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: finish mobile version
+# 📖 Portfolio: finish Desktop version
 
 <a name="about-project"></a>
 
-> Portfolio: Adding Contact-form mobile version is a project that is designed for us to get familiar with setting a using forms and inputs to validate user inputs also utilizing them for different devices also using Responsive design and linters.
+> Portfolio: Desktop portfolio is a project that is designed for us to get familiar with setting a using forms and inputs to validate user inputs also utilizing them for different devices also using Responsive design and linters.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,6 +52,7 @@
 
 ### Key Features <a name="key-features"></a>
 
+- Media Queries
 - Form
 - Interactive Contact forms
 - Form Validation
@@ -136,18 +137,11 @@ Netilfy or Github pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-👤 **Author2**
-
-- GitHub: [Rifat8080 ](https://github.com/Rifat8080)
-
-👤 **Author3**
-
-- GitHub: [@cosywasswa](https://github.com/cosywasswa)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Desktop Version
+- Contact form interactivity
 - Client Testimonials
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
