@@ -60,6 +60,7 @@
 - Utilized Flexbox
 - Github workflow linter(HTML+CSS)
 - Pair-Programming
+- Deployed to the web
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
