@@ -43,6 +43,10 @@ header {
   display: none;
 }
 
+@media screen and (min-width: 375px) {
+  
+}
+
 .greeting {
   padding-top: 128px;
   font-weight: 700;
