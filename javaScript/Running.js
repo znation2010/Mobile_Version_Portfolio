@@ -1,6 +1,10 @@
-const navigationDesktop = document.querySelector('.navigation-desktop');
-const burgerMenu = document.querySelector('.burger-menu'); 
+const openNavigation = function openNavHandler() {
+  document.querySelector('.mobile-menu').style.display = 'block';
+};
 
-burgerMenu.addEventListener('click', () => {
-navigationDesktop.classList.toggle('mobileCoder');
-});
+const closeNavigation = function closeNavHandler() {
+  document.querySelector('.mobile-menu').style.display = 'none';
+};
+
+document.querySelector('#open-navigation').addEventListener('click', openNavigation);
+document.querySelector('#close-navigation').addEventListener('click', closeNavigation);
