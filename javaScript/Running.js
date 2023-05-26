@@ -15,3 +15,17 @@ const closeNavigation = function closeNavHandler() {
 
 document.querySelector('#open-navigation').addEventListener('click', openNavigation);
 document.querySelector('#close-navigation').addEventListener('click', closeNavigation);
+
+const form = document.getElementById('myForm');
+const emailInput = document.getElementById('email');
+const errorMsg = document.getElementById('error-msg');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  if (emailInput.value === emailInput.value.toLowerCase()) {
+    form.submit();
+  } else {
+    errorMsg.classList.remove('Filehiden');
+  }
+});

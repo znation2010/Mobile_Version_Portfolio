@@ -114,6 +114,22 @@ li a {
   color: #fff;
 }
 
+.displayer{
+  font-weight: 400;
+  font-size: 1rem;
+  color: red;
+}
+
+span{
+  color: black;
+}
+
+.hidden{
+  display: none;
+}
+
+
+
 /* Mobile Menu END */
 
 .greeting {

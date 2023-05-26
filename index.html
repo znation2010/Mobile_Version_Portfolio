@@ -373,6 +373,7 @@
             action="https://formspree.io/f/xzbqoenk"
             method="post"
             class="my-contact-form"
+            id="myForm"
           >
             <input
               type="text"
@@ -401,10 +402,11 @@
               required
             ></textarea>
             <button class="get-in-touch-btn" type="submit">Get In Touch</button>
+            <div class="displayer">
+              <p id="error-msg" class="hidden"> Hi, <span>Dear</span> your email must be in lowercase  check it again</p>
+            </div>
           </form>
-          <div class="end-bar">
-            <img src="assets/icons/End-bar.svg" alt="" />
-          </div>
+          
         </div>
       </section>
     </section>
