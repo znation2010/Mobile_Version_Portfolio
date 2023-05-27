@@ -18,7 +18,7 @@ document.querySelector('#close-navigation').addEventListener('click', closeNavig
 
 const form = document.getElementById('myForm');
 const emailInput = document.getElementById('email');
-const errorMsg = document.getElementById('error-msg');
+const errorMsg = document.getElementById('error-message');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -26,6 +26,6 @@ form.addEventListener('submit', (event) => {
   if (emailInput.value === emailInput.value.toLowerCase()) {
     form.submit();
   } else {
-    errorMsg.classList.remove('Filehiden');
+    errorMsg.classList.remove('hidden');
   }
 });
