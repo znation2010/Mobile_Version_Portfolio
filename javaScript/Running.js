@@ -26,6 +26,6 @@ form.addEventListener('submit', (event) => {
   if (emailInput.value === emailInput.value.toLowerCase()) {
     form.submit();
   } else {
-    errorMsg.classList.remove('hidden');
+    errorMsg.classList.remove('hiddenMsg');
   }
 });

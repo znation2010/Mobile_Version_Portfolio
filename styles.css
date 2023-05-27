@@ -114,19 +114,19 @@ li a {
   color: #fff;
 }
 
-.displayer{
+.displayer {
   font-weight: 400;
   font-size: 1rem;
   color: red;
 }
 
-span{
+span {
   color: black;
 }
 
-.hidden{
+/* .hidden {
   display: none;
-}
+} */
 
 
 
