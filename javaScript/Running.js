@@ -23,7 +23,7 @@ const errorMsg = document.getElementById('error-message');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
-  if (emailInput.value === emailInput.value.toLowerCase()) {
+  if (emailInput.value = emailInput.value.toLowerCase()) {
     form.submit();
   } else {
     errorMsg.classList.remove('hiddenMsg');
