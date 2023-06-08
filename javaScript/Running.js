@@ -1,6 +1,3 @@
-// let Navlinking = document.querySelector('.newNavLinks');
-// const Offing = document.getElementById('newCloseTag');
-
 document.querySelectorAll('.newNavLinks').forEach((element) => element.addEventListener('click', () => {
   document.querySelector('.mobile-menu').style.display = 'none';
 }));
@@ -23,7 +20,7 @@ const errorMsg = document.getElementById('error-message');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
-  if (emailInput.value = emailInput.value.toLowerCase()) {
+  if (emailInput.value === emailInput.value.toLowerCase()) {
     form.submit();
   } else {
     errorMsg.classList.remove('hiddenMsg');
