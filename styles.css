@@ -43,6 +43,93 @@ header {
   display: none;
 }
 
+/* Mobile Menu */
+.hidden {
+  display: none;
+}
+
+.mobile-menu {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  backdrop-filter: blur(8px);
+  background-color: #6070ffb7;
+  z-index: 1;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow-y: hidden;
+  height: calc(100vh - 20px);
+  top: 0;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(37, 47, 137, 0.08);
+}
+
+.mobile-menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  height: 100px;
+}
+
+.close-btn {
+  position: absolute;
+  margin: 10px;
+  top: 30px;
+  right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+}
+
+.mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+
+.mobile-menu-list-items {
+  list-style: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+}
+
+.mobile-menu-list-items a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.displayer {
+  font-weight: 400;
+  font-size: 1rem;
+  color: red;
+}
+
+span {
+  color: black;
+}
+
+.hiddenMsg {
+  display: none;
+}
+
+/* Mobile Menu END */
+
 .greeting {
   padding-top: 128px;
   font-weight: 700;
@@ -69,11 +156,6 @@ header {
   font-size: 1rem;
   line-height: 0.875rem;
   margin: 0.75rem 0 0.875rem 0;
-}
-
-li a {
-  display: block;
-  text-decoration: none;
 }
 
 .social-media-links a {
@@ -359,7 +441,7 @@ input {
   border: 1px solid #cfd8dc;
   margin-top: 20px;
   font-family: Poppins, serif, sans serif;
-  font-weight: 400px;
+  font-weight: 400;
   color: #172b4d;
   font-size: 17px;
 }
@@ -371,7 +453,7 @@ textarea {
   margin-top: 18px;
   padding: 15px 38px 15px 16px;
   font-family: Poppins, serif, sans serif;
-  font-weight: 400px;
+  font-weight: 400;
   color: #172b4d;
   font-size: 17px;
 }

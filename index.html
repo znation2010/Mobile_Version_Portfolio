@@ -5,48 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desktop version</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <a class="my-logo" href="#">My Logo</a>
       <nav>
-        <div class="burger">
-          <svg
-            class="burger-menu"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewbox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-menu"
-          >
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
+        <div class="burger" id="open-navigation" onclick="openNav ()">
+          <i class="fa fa-bars"></i>
         </div>
         <div class="navigation-desktop">
           <ul class="nav-menu">
             <li class="nav-item">
-              <a href="#" class="nav-link">Portfolio</a>
+              <a href="#portfolio-section" class="nav-link">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">About</a>
+              <a href="#about-myself-section" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Contact</a>
+              <a href="#contact-section" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
+
+    <!-- mobile-menu -->
+    <div class="mobile-menu hidden" id="newCloseTag">
+      <div class="mobile-menu-container">
+        <div id="close-navigation" class="close-btn" onclick="closeNav()">
+          <i class="fas fa-times"></i>
+        </div>
+        <!-- Content of the mobile menu -->
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-list-items" onclick="closeNav()">
+            <a href="#portfolio-section" class="newNavLinks">Portfolio</a>
+          </li>
+          <li class="mobile-menu-list-items" onclick="closeNav()">
+            <a href="#about-myself-section" class="newNavLinks">About</a>
+          </li>
+          <li class="mobile-menu-list-items" onclick="closeNav()">
+            <a href="#contact-section" class="newNavLinks">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- mobile-menu END-->
+
     <!-- Hero Section Starts -->
-    <section class="hero">
+    <section id="portfolio-section" class="hero">
       <div class="pro-card">
         <h1 class="greeting">
           I'm Zerihun. <br />
@@ -232,7 +243,7 @@
     </section>
     <!-- Work section end -->
     <!-- About myself starts -->
-    <section class="about-myself">
+    <section id="about-myself-section" class="about-myself">
       <div class="about-content">
         <div class="pro-card">
           <h2 class="greeting">About Myself</h2>
@@ -349,7 +360,7 @@
     </section>
     <!-- About myself section ends -->
     <!---  Contact-me Form  -->
-    <section class="footer-container" id="footer-id">
+    <section id="contact-section" class="footer-container" id="footer-id">
       <section class="contact-me">
         <div>
           <h2 class="contact-me-header">Contact me</h2>
@@ -362,6 +373,7 @@
             action="https://formspree.io/f/xzbqoenk"
             method="post"
             class="my-contact-form"
+            id="myForm"
           >
             <input
               type="text"
@@ -390,12 +402,17 @@
               required
             ></textarea>
             <button class="get-in-touch-btn" type="submit">Get In Touch</button>
+            <div class="displayer">
+              <p id="error-message" class="hiddenMsg">
+                Hi, <span>Dear</span> your email must be in lowercase check it
+                again
+              </p>
+            </div>
           </form>
-          <div class="end-bar">
-            <img src="assets/icons/End-bar.svg" alt="" />
-          </div>
         </div>
       </section>
     </section>
+
+    <script src="javaScript/Running.js"></script>
   </body>
 </html>
