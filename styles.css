@@ -324,6 +324,7 @@ ul {
   background: #6070ff;
   background-image: url(assets/images/desktop-images/contact\ form\ background\ shapes@2x.svg);
   background-repeat: no-repeat;
+  background-size:contain;
   background-position-x: right;
   border-top-left-radius: 90px;
   padding-top: 103px;
